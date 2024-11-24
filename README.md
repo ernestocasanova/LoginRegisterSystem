@@ -36,7 +36,7 @@ This project was built using the following technologies and features:
 - Open the project from Visual Studio 2022.
 - This project uses simple local json files to persist data.
 
-![system](raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/tree/87ac8fd94ecd896d60197f10452c57ba85cb31ee/Docs/auth_screens.png)
+![system](raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/blob/c65e84d48acd82a4b5848adf17693aaa97972a7b/Docs/auth_screens.png)
 
 ## Login and Register Forms - Credits to BinaryLeo 
 
