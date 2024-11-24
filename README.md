@@ -16,7 +16,7 @@ Login and Register System using C# for Windows Forms
 
 </div>
 
-<div align="center"><img src="https://github.com/ernestocasanova/LoginRegisterSystem/blob/main/docs/project_animation.gif" width=50% height=50%></div>
+<div align="center"><img src="https://github.com/ernestocasanova/LoginRegisterSystem/blob/main/Docs/project_animation.gif" width=50% height=50%></div>
 
 ## Facade Design Pattern
 
