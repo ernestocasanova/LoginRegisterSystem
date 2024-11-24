@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LoginRegisterSystem.Controller.LoginController" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Controllers\LoginController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Controller.MainController" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAACAABAAAAAA=</HashCode>
+      <FileName>Controllers\MainController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Controller.RegisterController" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Controllers\RegisterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Data.FilePathManager" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEACAAAAACEAAAAAAAAQAAAAAAAAAAQAAAIAAAAAA=</HashCode>
+      <FileName>Models\Data\FilePathManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Entity.User" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Entity\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Facades.LoginFacade" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAA=</HashCode>
+      <FileName>Models\Facades\LoginFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Facades.MainFacade" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAEEAAAAAA=</HashCode>
+      <FileName>Models\Facades\MainFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Facades.RegisterFacade" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Models\Facades\RegisterFacade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Models.Services.UserService" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAAAAAEAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Services\UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Program" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.LoginForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgEAEQAASAEChAAAQiAIAASAAAAAAACIBAAAIEAAEA=</HashCode>
+      <FileName>Views\Auth\LoginForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoginRegisterSystem.frmRegister" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKgAAAAgACAACFAAAQiAIAACAAAEAAACAFEAAAEAIEA=</HashCode>
+      <FileName>Views\Auth\RegisterForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoginRegisterSystem.MainForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAEBBAAwCAAAACAABIAAAAAEAAAVBAAAA=</HashCode>
+      <FileName>Views\Main\MainForm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LoginRegisterSystem.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAABAAAAAAAAAYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginRegisterSystem.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LoginRegisterSystem.Views.Interfaces.IViewLogin" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAEAAAAAQgAIAAAAAAAAAACAAAAAIAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IViewLogin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LoginRegisterSystem.Views.Interfaces.IViewMain" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IViewMain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LoginRegisterSystem.Views.Interfaces.IViewRegister" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAQgAIAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Interfaces\IViewRegister.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
