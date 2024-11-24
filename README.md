@@ -21,7 +21,7 @@ Login and Register System using C# for Windows Forms
 
 ## Facade Design Pattern
 
-<div align="center"><img src="raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/tree/87ac8fd94ecd896d60197f10452c57ba85cb31ee/Docs/project_animation.gif" width=50% height=50%></div>
+<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/923b7cb14fc14648212b99bfaf69b05f8848bf97/Docs/facade_diagram.png" width=50% height=50%></div>
 
 ## 🧪 technologies
 
@@ -36,7 +36,7 @@ This project was built using the following technologies and features:
 - Open the project from Visual Studio 2022.
 - This project uses simple local json files to persist data.
 
-![system](raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/blob/c65e84d48acd82a4b5848adf17693aaa97972a7b/Docs/auth_screens.png)
+![system](https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/c65e84d48acd82a4b5848adf17693aaa97972a7b/Docs/auth_screens.png)
 
 ## Login and Register Forms - Credits to BinaryLeo 
 
