@@ -1,6 +1,6 @@
 # Login-Register-System
 
-## Patterns Applyed, Singleton & Facade Design 
+## Design Patterns Applyed, Singleton & Facade 
 
 Login and Register System using C# for Windows Forms
 
