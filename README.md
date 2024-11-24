@@ -24,7 +24,7 @@ Login and Register System using C# for Windows Forms
 
 ## Singleton Design Pattern
 
-<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/923b7cb14fc14648212b99bfaf69b05f8848bf97/Docs/singleton.png" width=50% height=50%></div>
+<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/e1882e821f96e71eec2d5ced7c0821c98d724dcb/Docs/singleton.png" width=50% height=50%></div>
 
 ## Facade Design Pattern
 
