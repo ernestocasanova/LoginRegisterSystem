@@ -194,6 +194,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Docs\auth_screens.png" />
+    <Content Include="Docs\facade_diagram.png" />
     <Content Include="Docs\project_animation.gif" />
     <Content Include="Views\Resources\home.png" />
     <Content Include="Views\Resources\user.png" />
