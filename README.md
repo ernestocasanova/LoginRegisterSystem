@@ -35,8 +35,11 @@ This project was built using the following technologies and features:
 - Open the project from Visual Studio 2022.
 - This project uses simple local json files to persist data.
 
-
 ![system](https://github.com/ernestocasanova/LoginRegisterSystem/blob/main/docs/auth_screens.png)
+
+## Login and Register Forms - Credits to BinaryLeo 
+
+![BinaryLeo](https://github.com/BinaryLeo/csharp_signin_signup_system)
 
 ## 📄 License
 
