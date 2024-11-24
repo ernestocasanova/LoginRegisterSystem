@@ -40,7 +40,7 @@ This project was built using the following technologies and features:
 
 ## Login and Register Forms - Credits to BinaryLeo 
 
-![BinaryLeo](https://github.com/BinaryLeo/csharp_signin_signup_system)
+[BinaryLeo](https://github.com/BinaryLeo/csharp_signin_signup_system)
 
 ## 📄 License
 
