@@ -190,12 +190,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Docs\auth_screens.png" />
-    <Content Include="Docs\facade_diagram.png" />
-    <Content Include="Docs\project_animation.gif" />
+    <Content Include="App_config.xml" />
     <Content Include="Views\Resources\home.png" />
     <Content Include="Views\Resources\user.png" />
   </ItemGroup>
