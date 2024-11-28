@@ -1,4 +1,7 @@
-# Login-Register-System with Facade Design Pattern
+# Login-Register-System
+
+## Design Patterns Applyed, Singleton & Facade 
+
 Login and Register System using C# for Windows Forms
 
 <p align="center">
@@ -18,6 +21,10 @@ Login and Register System using C# for Windows Forms
 <div align="center">
     <img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/87ac8fd94ecd896d60197f10452c57ba85cb31ee/Docs/project_animation.gif" width="50%" height="50%">
 </div>
+
+## Singleton Design Pattern
+
+<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/e1882e821f96e71eec2d5ced7c0821c98d724dcb/Docs/singleton.png" width=50% height=50%></div>
 
 ## Facade Design Pattern
 
