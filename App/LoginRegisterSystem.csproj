@@ -127,21 +127,21 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Facades\LoginFacade.cs" />
+    <Compile Include="Controllers\Facades\MainFacade.cs" />
+    <Compile Include="Controllers\Facades\RegisterFacade.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
-    <Compile Include="Models\Facades\LoginFacade.cs" />
-    <Compile Include="Models\Facades\MainFacade.cs" />
-    <Compile Include="Models\Facades\RegisterFacade.cs" />
-    <Compile Include="Models\Services\UserService.cs" />
+    <Compile Include="Controllers\Services\UserService.cs" />
+    <Compile Include="Models\Interfaces\IViewLogin.cs" />
+    <Compile Include="Models\Interfaces\IViewMain.cs" />
+    <Compile Include="Models\Interfaces\IViewRegister.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Interfaces\IViewRegister.cs" />
-    <Compile Include="Models\Interfaces\IViewLogin.cs" />
-    <Compile Include="Models\Interfaces\IViewMain.cs" />
     <Compile Include="Views\Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -210,5 +210,6 @@
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

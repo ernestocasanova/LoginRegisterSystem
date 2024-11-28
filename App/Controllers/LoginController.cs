@@ -8,10 +8,8 @@
 //    <author>Ernesto Casanova</author>​
 //-----------------------------------------------------------------
 
-using LoginRegisterSystem.Models.Entity;
-using LoginRegisterSystem.Models.Services;
+using LoginRegisterSystem.Models.Facades;
 using LoginRegisterSystem.Views.Interfaces;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -25,7 +23,7 @@ namespace LoginRegisterSystem.Controller
         #region Fields and Properties
 
         private readonly IViewLogin _view;   // Interface for the Login View
-        private readonly UserService _userService;  // Service to handle user-related operations
+        private readonly LoginFacade _loginFacade;  // Service to handle user-related operations
 
         #endregion
 
@@ -38,7 +36,7 @@ namespace LoginRegisterSystem.Controller
         public LoginController(IViewLogin view)
         {
             _view = view;  // Assign the view
-            _userService = new UserService();  // Initialize the UserService
+            _loginFacade = new LoginFacade();  // Initialize the LoginFacade
         }
 
         #endregion
@@ -50,18 +48,8 @@ namespace LoginRegisterSystem.Controller
         /// </summary>
         public async Task HandleLoginAsync()
         {
-            // Load the list of users from the file
-            List<User> users = await _userService.LoadUsersAsync();
-
-            // Check if there are no users in the system
-            if (users.Count == 0)
-            {
-                _view.DisplayMessage("No user data file found. Please register first.", "Login Failed", MessageBoxIcon.Error);
-                return;
-            }
-
             // Validate the credentials entered by the user
-            bool loginSuccess = _userService.ValidateCredentials(_view.Username, _view.Password, users);
+            bool loginSuccess = await _loginFacade.AuthenticateAsync(_view.Username, _view.Password);
 
             // If login is successful, navigate to the main form
             if (loginSuccess)

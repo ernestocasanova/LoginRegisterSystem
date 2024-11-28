@@ -8,7 +8,7 @@
 //    <author>Ernesto Casanova</author>​
 //-----------------------------------------------------------------
 
-using LoginRegisterSystem.Models.Services;
+using LoginRegisterSystem.Models.Facades;
 using LoginRegisterSystem.Views.Interfaces;
 using System;
 using System.Threading.Tasks;
@@ -24,7 +24,7 @@ namespace LoginRegisterSystem.Controller
         #region Fields and Properties
 
         private readonly IViewRegister _view;  // Interface for the Register View
-        private readonly UserService _userService;  // Service responsible for user operations
+        private readonly RegisterFacade _registerFacade;  // Facade Class responsible for user operations
 
         #endregion
 
@@ -37,7 +37,7 @@ namespace LoginRegisterSystem.Controller
         public RegisterController(IViewRegister view)
         {
             _view = view;  // Assign the view
-            _userService = new UserService();  // Initialize the UserService
+            _registerFacade = new RegisterFacade();  // Initialize the RegisterFacade
         }
 
         #endregion
@@ -69,7 +69,7 @@ namespace LoginRegisterSystem.Controller
             try
             {
                 // Attempt to register the user
-                bool registrationSuccess = await _userService.RegisterUserAsync(_view.Username, _view.Password);
+                bool registrationSuccess = await _registerFacade.RegisterUserAsync(_view.Username, _view.Password);
 
                 if (registrationSuccess)
                 {

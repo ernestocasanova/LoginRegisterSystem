@@ -41,7 +41,8 @@ namespace LoginRegisterSystem.Models.Facades
         /// <returns>A task that represents the asynchronous operation. The task result is true if registration is successful, false otherwise.</returns>
         public async Task<bool> RegisterUserAsync(string username, string password)
         {
-            return await _userService.RegisterUserAsync(username, password); // Call the service method to register the user
+            // Call the service method to register the user and additional complexity
+            return await _userService.RegisterUserAsync(username, password); 
         }
         #endregion
     }
