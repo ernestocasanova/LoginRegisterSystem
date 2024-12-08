@@ -28,7 +28,7 @@ Login and Register System using C# for Windows Forms
 
 ## Facade Design Pattern
 
-<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/923b7cb14fc14648212b99bfaf69b05f8848bf97/Docs/facade_diagram.png" width=50% height=50%></div>
+<div align="center"><img src="https://raw.githubusercontent.com/ernestocasanova/LoginRegisterSystem/210c9fa9a61647b772423d8402c8e29a5750efe8/Docs/facade_diagram.png" width=50% height=50%></div>
 
 ## 🧪 technologies
 
